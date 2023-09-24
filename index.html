@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yunishka website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
+   
+</head>
+<style>
+body{
+    /*CSS Reset*/
+    font-family: 'Baloo Bhai';font-size: 22px;
+
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('C:\project1\image\abs-1850926_1280.jpg');
+
+
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    
+}
+.center{
+    display: block;
+    width: 45%;
+    top: 0px;
+    margin:-4px 611px;
+
+}
+.right{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    display: inline-block;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+
+}
+.navbar li a{
+    color: white;
+    padding: 34px 12px;
+    font-size: 20px;
+}
+.navbar li a:hover,.navbar li a.active{
+    text-decoration: underline;
+    color: grey;
+}
+.left img{
+    width: 90px;
+filter: invert(100%);
+margin-left: 35px;
+    
+    
+
+}
+.left div{
+text-align: center;
+}
+.btn{
+font-family: 'Baloo Bhai';font-size: 22px;
+margin: 0px 9px;
+background-color: black;
+color: white;
+padding: 4px 14px;
+border: 2px solid white;
+border-radius: 10px;
+font-size: 20px;
+cursor: pointer;
+
+}
+.btn:hover{
+background-color: rgb(24, 24, 24);
+}
+.container{
+border: 2px solid white;
+margin:   87px 657px;
+padding:44px 34px;
+width:33%;
+border-radius: 10px;
+text-align: center;
+
+}
+.form-group input{
+font-family: 'Baloo Bhai';
+font-size: 20px;
+background-color: white;
+color: black;
+padding: 0px 108px;
+border:2px solid white ;
+width: 43%;
+display: block;
+margin: 24px auto;
+border-radius: 10px;
+text-align: center;
+
+}
+.container h1{
+text-align: center;
+font-size: 20px;
+}
+.container btn{
+display: block;
+width: 23%;
+margin: auto;
+}
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <!--left box of logo-->
+            <img src="C:\project1\image\dumbbell-icon-illustration-isolated-on-white-background-free-vector.jpg" alt="">
+            <div>Yunishka Fitness</div>
+
+        </div>
+        <div class="center">
+            <!--mid box for navbar-->
+            <ul class="navbar">
+                <li><a href="#" class="active"> Home</a> </li>
+                <li><a href="#">About us </a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li> <a href="#">Contact us</a></li>
+
+            </ul>
+
+        </div>
+        <div class="right">
+            <!--right box for button-->
+          <button class="btn">Call us</button> 
+          <button class="btn">Email us</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>JOIN THE BEST GYM OF PUNE NOW!!</h1>
+        <form action="noaction.php">
+            <div class="form-group"> 
+                <input type="text" name="" placeholder="Enter your name">
+        
+            </div>
+            <div class="form-group"> 
+                <input type="text" name="" placeholder="Enter your age">
+        
+            </div>
+            <div class="form-group"> 
+                <input type="text" name="" placeholder="Enter your gender">
+        
+            </div>
+            <div class="form-group"> 
+                <input type="text" name="" placeholder="Enter your locality">
+        
+            </div>
+            <button class="btn">Submit</button>
+
+        </form>
+    </div>
+    
+</body>
+</html>
